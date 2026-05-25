@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from "react";
 import heroImg from "@/assets/hero-filmmaker.jpg";
 import workCinematic from "@/assets/work-cinematic.jpg";
 import cinematicVideos from "@/assets/cinematic-videos.jpg";
-import cinematicVideosVideo from "@/assets/cinematic-videos.mp4";
 import workBrand from "@/assets/work-brand.jpg";
 import brandFilms from "@/assets/brand-films.jpg";
 import brandFilmsVideo from "@/assets/brand-films.mp4";
