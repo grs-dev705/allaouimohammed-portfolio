@@ -23,6 +23,7 @@ import aperture2 from "@/assets/aperture-2.jpg";
 import aperture3 from "@/assets/aperture-3.jpg";
 import aperture4 from "@/assets/aperture-4.jpg";
 const cinematicVideosVideo = "";
+const workGrading = "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500";
 /* ───────────────────────── Nav ───────────────────────── */
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
