@@ -6,7 +6,6 @@ import cinematicVideos from "@/assets/cinematic-videos.jpg";
 import workBrand from "@/assets/work-brand.jpg";
 import brandFilms from "@/assets/brand-films.jpg";
 import brandFilmsVideo from "@/assets/brand-films.mp4";
-import workGrading from "@/assets/work-grading.jpg";
 import workArchitecture from "@/assets/work-architecture.jpg";
 import workPortrait from "@/assets/work-portrait.jpg";
 import lightGeo1 from "@/assets/light-geometry-1.jpg";
