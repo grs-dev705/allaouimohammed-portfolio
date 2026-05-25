@@ -25,8 +25,6 @@ import aperture4 from "@/assets/aperture-4.jpg";
 
 /* ───────────────────────── Nav ───────────────────────── */
 const Nav = () => {
-  export const workGrading = "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500";
-  export const cinematicVideosVideo = "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=500";
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
