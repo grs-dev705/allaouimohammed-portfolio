@@ -458,20 +458,22 @@ const ProcessSection = () => {
 /* ───────────────────────── Services Section ───────────────────────── */
 const ServicesSection = () => {
   const services = [
-    // 1. Cinematic Videos (Remove quotes so it uses the top import variable)
-    "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: cinematicVideosVideo },
-    
-    // 2. Brand Films (Remove quotes so it uses the top import variable)
-    "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: brandFilmsVideo },
-    
-    // 3. Color Grading (Fix path to target your uploaded colorGradingVideo.mov)
-    "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: workGrading, video: "/src/assets/colorGradingVideo.mov" },
-    
-    // 4. Event Photography (Fix path to target your uploaded event.mp4)
-    "Weddings, launches, performances - captured with a cinematic eye.", img: workPortrait, video: "/src/assets/event.mp4" },
-    
-    // 5. Social Media Content (Fix path to target your uploaded social.mp4)
-    "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand, video: "/src/assets/social.mp4" },
+   const services = [
+  // 1. Cinematic Videos
+  { description: "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: "/cinematic-videos.mp4" },
+
+  // 2. Brand Films
+  { description: "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: "/brand-films.mp4" },
+
+  // 3. Color Grading
+  { description: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: workGrading, video: "/colorGradingVideo.mov" },
+
+  // 4. Event Photography
+  { description: "Weddings, launches, performances – captured with a cinematic eye.", img: workPortrait, video: "/event.mp4" },
+
+  // 5. Social Media Content
+  { description: "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand, video: "/social.mp4" }
+];
   ];
   return (
     <section id="services" className="relative bg-seasalt py-24 md:py-40">
