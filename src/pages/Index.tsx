@@ -459,8 +459,8 @@ const ProcessSection = () => {
 /* ───────────────────────── Services Section ───────────────────────── */
 const ServicesSection = () => {
   const services = [
-    { tag: "01", title: "Cinematic Videos", body: "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: cinematicVideosVideo },
-    { tag: "02", title: "Brand Films", body: "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: brandFilmsVideo },
+    { tag: "01", title: "Cinematic Videos", body: "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: "/cinematicVideosVideo" },
+    { tag: "02", title: "Brand Films", body: "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: "/brandFilmsVideo" },
     { tag: "03", title: "Color Grading", body: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: WorkGrading,video: "/colorGradingVideo.mov" },
     { tag: "04", title: "Event Photography", body: "Weddings, launches, performances — captured with a cinematic eye.", img: workPortrait,video: "/event.mp4" },
     { tag: "05", title: "Social Media Content", body: "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand,video: "/social.mp4" },
