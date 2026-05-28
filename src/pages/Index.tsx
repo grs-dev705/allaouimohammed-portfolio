@@ -505,40 +505,34 @@ const ServicesSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {services.map((s, i) => (
-            <motion.div
-              key={s.tag}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, delay: i * 0.1 }}
-              className="group relative bg-eerie-deep aspect-[3/4] overflow-hidden"
-            >
-              {(s as any).video ? (
-                <video src={(s as any).video} autoPlay muted loop playsInline poster={s.img} className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-1000" />
+          {services.map((item, index) => (
+            <div key={index} className="relative overflow-hidden group rounded-xl">
+              {/* Video Background Layer */}
+              {item.video ? (
+                <video
+                  src={item.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                />
               ) : (
-                <img src={s.img} alt={s.title} className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-1000" />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-br from-eerie/70 via-eerie-deep/60 to-eerie-deep/80" />
-              <div className="absolute inset-0 bg-gradient-to-t from-eerie-deep via-eerie-deep/40 to-transparent" />
-              <div className="relative z-10 h-full p-8 flex flex-col justify-between">
-                <div className="flex justify-between items-start font-mono-tag text-[10px] uppercase text-seasalt/70">
-                  <span>// {s.tag}</span>
-                  <span>service</span>
-                </div>
-                <div>
-                  <h3 className="font-display text-seasalt text-3xl md:text-4xl tracking-tight mb-4">
-                    {s.title}
-                  </h3>
-                  <p className="font-serif-edit text-seasalt/70 text-sm leading-relaxed max-w-[28ch]">
-                    {s.body}
-                  </p>
-                </div>
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="absolute inset-0 object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                />
+              )/* Dark overlay to keep text legible */}
+              <div className="absolute inset-0 bg-black/50" /> 
+          
+              {/* Card Content Layout */}
+              <div className="relative z-10 p-8">
+                <h3 className="text-2xl font-bold text-white">{item.title}</h3>
+                <p className="mt-2 text-sm text-gray-300">{item.description}</p>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </div>
-      </div>
     </section>
   );
 };
