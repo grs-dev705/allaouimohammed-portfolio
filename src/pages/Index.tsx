@@ -465,13 +465,13 @@ const ServicesSection = () => {
   { description: "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: "/brand-films.mp4" },
 
   // 3. Color Grading
-  { description: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: workGrading, video: "/colorGradingVideo.mov" },
+  { description: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: workGrading, video: "/IMG_7842.mov" },
 
   // 4. Event Photography
   { description: "Weddings, launches, performances – captured with a cinematic eye.", img: workPortrait, video: "/event.mp4" },
 
   // 5. Social Media Content
-  { description: "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand, video: "/social.mp4" }
+  { description: "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand, video: "/0526(2).mov" }
 ];
   ];
   return (
