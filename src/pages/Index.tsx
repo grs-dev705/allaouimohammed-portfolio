@@ -458,20 +458,37 @@ const ProcessSection = () => {
 /* ───────────────────────── Services Section ───────────────────────── */
 const ServicesSection = () => {
    const services = [
-  // 1. Cinematic Videos
-  { description: "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: "/cinematic-videos.mp4" },
-
-  // 2. Brand Films
-  { description: "Stories for fashion, fragrance and architecture houses.", img: brandFilms, video: "/brand-films.mp4" },
-
-  // 3. Color Grading
-  { description: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.", img: workGrading, video: "/IMG_7842.mov" },
-
-  // 4. Event Photography
-  { description: "Weddings, launches, performances – captured with a cinematic eye.", img: workPortrait, video: "/event.mp4" },
-
-  // 5. Social Media Content
-  { description: "Short-form verticals built for the scroll. Crafted, not churned.", img: workBrand, video: "/0526(2).mov" }
+    const services = [
+  {
+    title: "Cinematic Videos",
+    description: "Short films, music videos, narrative pieces. Concept to delivery.",
+    img: cinematicVideos, // your fallback image
+    video: window.cinematicVideosVideo
+  },
+  {
+    title: "Brand Films",
+    description: "Stories for fashion, fragrance and architecture houses.",
+    img: brandFilms,
+    video: window.brandFilmsVideo
+  },
+  {
+    title: "Color Grading",
+    description: "Final pass color for filmmakers. DaVinci Resolve. ACES workflow.",
+    img: workGrading,
+    video: window.workGradingVideo
+  },
+  {
+    title: "Event Photography",
+    description: "Weddings, launches, performances — captured with a cinematic eye.",
+    img: workPortrait,
+    video: window.eventVideo
+  },
+  {
+    title: "Social Media Content",
+    description: "Short-form verticals built for the scroll. Crafted, not churned.",
+    img: workBrand,
+    video: window.socialMediaVideo
+  }
 ];
   ];
   return (
