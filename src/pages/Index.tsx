@@ -457,7 +457,6 @@ const ProcessSection = () => {
 
 /* ───────────────────────── Services Section ───────────────────────── */
 const ServicesSection = () => {
-  const services = [
    const services = [
   // 1. Cinematic Videos
   { description: "Short films, music videos, narrative pieces. Concept to delivery.", img: cinematicVideos, video: "/cinematic-videos.mp4" },
