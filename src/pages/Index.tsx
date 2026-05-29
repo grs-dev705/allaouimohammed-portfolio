@@ -7,10 +7,6 @@ window.WorkGrading = "https://images.unsplash.com/photo-1542831371-29b0f74f9713?
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import heroImg from "@/assets/hero-filmmaker.jpg";
-import workCinematic from "@/assets/work-cinematic.jpg";
-import workBrand from "@/assets/work-brand.jpg";
-
-
 import workArchitecture from "@/assets/work-architecture.jpg";
 import workPortrait from "@/assets/work-portrait.jpg";
 import lightGeo1 from "@/assets/light-geometry-1.jpg";
