@@ -8,10 +8,11 @@ import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion"
 import { useEffect, useRef, useState } from "react";
 import heroImg from "@/assets/hero-filmmaker.jpg";
 import workCinematic from "@/assets/work-cinematic.jpg";
-import cinematicVideos from "@/assets/cinematic-videos.jpg";
+import cinematicVideos from "@/public/cinematic-videos.mp4";
+import ColorGrading from "@/public/IMG_7842.mov";
 import workBrand from "@/assets/work-brand.jpg";
-import brandFilms from "@/assets/brand-films.jpg";
-import brandFilmsVideo from "@/assets/brand-films.mp4";
+import brandFilms from "@/public/brand-films.mp4";
+import brandFilmsVideo from "@/public/brand-films.mp4";
 import workArchitecture from "@/assets/work-architecture.jpg";
 import workPortrait from "@/assets/work-portrait.jpg";
 import lightGeo1 from "@/assets/light-geometry-1.jpg";
@@ -28,9 +29,9 @@ import aperture1 from "@/assets/aperture-1.jpg";
 import aperture2 from "@/assets/aperture-2.jpg";
 import aperture3 from "@/assets/aperture-3.jpg";
 import aperture4 from "@/assets/aperture-4.jpg";
-import cinematicVideosVideo from "../assets/cinematic-videos.mp4";
+import cinematicVideosVideo from "..public/0526(2).mov";
 import brandFilmsVideo from "../assets/brand-films.mp4";
-import workGrading from "../assets/brand-films.jpg";
+import SocialMediaContent from "../public/0526(2).mov";
 /* ───────────────────────── Nav ───────────────────────── */
 const Nav = () => {
   if (typeof window !== 'undefined') {
