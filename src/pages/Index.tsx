@@ -8,8 +8,6 @@ import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion"
 import { useEffect, useRef, useState } from "react";
 import heroImg from "@/assets/hero-filmmaker.jpg";
 import workCinematic from "@/assets/work-cinematic.jpg";
-
-
 import workBrand from "@/assets/work-brand.jpg";
 
 
@@ -219,12 +217,13 @@ type Work = {
   num: string;
   title: string;
   category: string;
-  year: string;
-  client: string;
+  // ... your other existing types
   img: string;
   size: "lg" | "md" | "sm";
   gallery?: string[];
+  video?: string; // <-- Add this line right here!
 };
+
 
 const works: Work[] = [
   { num: "02", title: "Youth Project", category: "Brand Film", year: "2026", client: "yacine medjahed", img: lessence1, size: "md", gallery: [lessence1, lessence2, lessence3] },
