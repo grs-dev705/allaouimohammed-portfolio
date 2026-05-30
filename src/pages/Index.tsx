@@ -534,10 +534,11 @@ const ServicesSection = () => {
           ))}
     </section>
   );
-};
 
 /* ───────────────────────── Contact ───────────────────────── */
+        
 const Contact = () => (
+        
   <section id="contact" className="relative bg-eerie-deep text-seasalt py-32 md:py-48 overflow-hidden">
     <div className="absolute inset-0 opacity-30" style={{ background: "var(--gradient-vignette)" }} />
     <div className="relative mx-auto max-w-[1600px] px-6 md:px-10">
@@ -553,7 +554,7 @@ const Contact = () => (
         <a
           href="mailto:allaouimohammedabdellah@gmail.com"
           className="inline-flex items-center gap-4 font-display text-xl md:text-2xl text-seasalt border-b border-seasalt/30 pb-2 hover:border-seasalt transition-colors break-all"
-        >
+        
           allaouimohammedabdellah@gmail.com
           <svg width="20" height="20" viewBox="0 0 14 14" fill="none" className="shrink-0">
             <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" strokeWidth="1.2" />
@@ -583,8 +584,10 @@ const Contact = () => (
 
 /* ───────────────────────── Footer ───────────────────────── */
 const Footer = () => (
-  <footer className="bg-eerie-deep text-seasalt/50 border-t border-seasalt/10 py-8">
+      
+  <footer className="bg-eerie-deep text-seasalt/50 border-t border-seasalt/10 py-8"> </footer>
     <div className="mx-auto max-w-[1600px] px-6 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-mono-tag text-[10px] uppercase">
+       </div>
       <p>© MMXXV · Allaoui Mohammed Abdellah</p>
       <p className="text-cadet">END OF REEL · 24.000 fps</p>
       <p>Designed by GRSDEV.</p>
@@ -595,6 +598,7 @@ const Footer = () => (
 /* ───────────────────────── Page ───────────────────────── */
 const Index = () => {
   return (
+    
     <main className="bg-seasalt min-h-screen">
       <Nav />
       <Hero />
