@@ -490,7 +490,6 @@ const ServicesSection = () => {
     video: window.socialMediaVideo
   }
 ];
-  ];
   return (
     <section id="services" className="relative bg-seasalt py-24 md:py-40">
       <div className="mx-auto max-w-[1600px] px-6 md:px-10">
