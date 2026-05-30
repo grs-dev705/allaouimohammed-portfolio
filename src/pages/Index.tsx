@@ -24,6 +24,12 @@ import aperture2 from "@/assets/aperture-2.jpg";
 import aperture3 from "@/assets/aperture-3.jpg";
 import aperture4 from "@/assets/aperture-4.jpg";
 
+import SocialMediaContent from "@/public/0526(2).mov";
+import ColorGrading from "@/public/IMG_7842.mov";
+import BrandFilms from "@/public/brand-films.mp4";
+import CinematicVideos from "@/public/cinematic-videos.mp4";
+import EventPhotography from "@/public/event.mp4";
+
 /* ───────────────────────── Nav ───────────────────────── */
 const Nav = () => {
   if (typeof window !== 'undefined') {
@@ -213,11 +219,12 @@ type Work = {
   num: string;
   title: string;
   category: string;
-  // ... your other existing types
+  year: string;
+  client: string;
   img: string;
-  size: "lg" | "md" | "sm";
+  size?: "lg" | "md" | "sm";
   gallery?: string[];
-  video?: string; // <-- Add this line right here!
+  video?: string; // <-- MUST HAVE THIS QUESTION MARK
 };
 
 
