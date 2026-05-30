@@ -458,7 +458,6 @@ const ProcessSection = () => {
 
 /* ───────────────────────── Services Section ───────────────────────── */
 const ServicesSection = () => {
-   const services = [
     const services = [
   {
     title: "Cinematic Videos",
