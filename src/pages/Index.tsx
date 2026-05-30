@@ -597,7 +597,6 @@ const Footer = () => (
 
 /* ───────────────────────── Page ───────────────────────── */
 const Index = () => {
-  return (
     
     <main className="bg-seasalt min-h-screen">
       <Nav />
